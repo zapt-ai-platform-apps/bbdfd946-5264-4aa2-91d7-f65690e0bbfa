@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "arabic-website-builder",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "Smart professional Arabic website builder with user accounts",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -11,8 +11,20 @@
     },
     "dependencies": {
         "@sentry/browser": "^8.41.0",
+        "@supabase/auth-ui-react": "^0.4.7",
+        "@supabase/auth-ui-shared": "^0.1.8",
+        "@zapt/zapt-js": "^1.0.22",
+        "drizzle-orm": "^0.33.0",
+        "i18next": "^23.10.0",
+        "i18next-browser-languagedetector": "^7.2.0",
+        "postgres": "^3.4.5",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-beautiful-dnd": "^13.1.1",
+        "react-colorful": "^5.6.1",
+        "react-dom": "^18.2.0",
+        "react-i18next": "^14.0.5",
+        "react-icons": "^5.0.1",
+        "react-router-dom": "^6.22.2"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
@@ -20,6 +32,7 @@
         "postcss": "^8.4.47",
         "tailwindcss": "^3.4.13",
         "vite": "^5.4.7",
-        "@sentry/vite-plugin": "^2.23.0"
+        "@sentry/vite-plugin": "^2.23.0",
+        "vite-plugin-pwa": "^0.18.1"
     }
 }
